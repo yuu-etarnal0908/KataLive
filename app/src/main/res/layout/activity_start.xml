@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/CameraText"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/SelectUse"
+            android:textColor="#000000"
+            android:textSize="27sp" />
+
+        <Button
+            android:id="@+id/CameraButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CameraFnc"
+            android:textColorHint="#FFFFFF"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/CameraExposition"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/CameraExposition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/MessageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MessageFnc"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/MessageExposition"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/MessageExposition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/MapButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/MapFnc"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/MapExposition"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/MapExposition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/SettingButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SettingButton"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/SettingExposition"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/SettingExposition"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
